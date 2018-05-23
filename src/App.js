@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 
-
 import './App.css'
+import Main from './Main'
 
-const Main = () => {
-  return (
-     <div classname="Main">Main</div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Main />
+      </div>
+    )
+  }
 }
 
 export default App
